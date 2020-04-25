@@ -1,9 +1,15 @@
 public abstract class Pessoa {
 
 	private String nome;
+	private String email;
+	private String login;
+	private String senha;
 	
 	public Pessoa() {
 		this.nome = "";
+		this.email = "";
+		this.login = "";
+		this.senha = "";
 	}
 
 	public String getNome() {
@@ -13,5 +19,28 @@ public abstract class Pessoa {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getLogin() {
+		return login;
+	}
+
+	public void setLogin(String login) {
+		this.login = login;
+	}
+
+	public String getSenha() {
+		return senha;
+	}
+
+	public void setSenha(String senha) {
+		this.senha = senha;
+	}
 }
